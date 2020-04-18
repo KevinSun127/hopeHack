@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435F9FF3244A13FC00812E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435F9FF2244A13FC00812E98 /* AppDelegate.swift */; };
+		435F9FF5244A13FC00812E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435F9FF4244A13FC00812E98 /* ViewController.swift */; };
+		435F9FF8244A13FC00812E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435F9FF6244A13FC00812E98 /* Main.storyboard */; };
+		435F9FFA244A13FD00812E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435F9FF9244A13FD00812E98 /* Assets.xcassets */; };
+		435FA008244A13FE00812E98 /* HackforHopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FA007244A13FE00812E98 /* HackforHopeTests.swift */; };
+		435FA013244A13FE00812E98 /* HackforHopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FA012244A13FE00812E98 /* HackforHopeUITests.swift */; };
+		435FA023244A379100812E98 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FA022244A379100812E98 /* MainPage.swift */; };
+		435FA025244A4AA800812E98 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FA024244A4AA800812E98 /* QuoteView.swift */; };
+		435FA029244A701600812E98 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FA028244A701600812E98 /* BookView.swift */; };
+		435FA02B244A78EB00812E98 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FA02A244A78EB00812E98 /* MovieView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435FA004244A13FE00812E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435F9FE7244A13FC00812E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435F9FEE244A13FC00812E98;
+			remoteInfo = HackforHope;
+		};
+		435FA00F244A13FE00812E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435F9FE7244A13FC00812E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435F9FEE244A13FC00812E98;
+			remoteInfo = HackforHope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		435F9FEF244A13FC00812E98 /* HackforHope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackforHope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435F9FF2244A13FC00812E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		435F9FF4244A13FC00812E98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		435F9FF7244A13FC00812E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		435F9FF9244A13FD00812E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435F9FFE244A13FD00812E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435FA003244A13FE00812E98 /* HackforHopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackforHopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435FA007244A13FE00812E98 /* HackforHopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackforHopeTests.swift; sourceTree = "<group>"; };
+		435FA009244A13FE00812E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435FA00E244A13FE00812E98 /* HackforHopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackforHopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435FA012244A13FE00812E98 /* HackforHopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackforHopeUITests.swift; sourceTree = "<group>"; };
+		435FA014244A13FE00812E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435FA022244A379100812E98 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		435FA024244A4AA800812E98 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		435FA028244A701600812E98 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		435FA02A244A78EB00812E98 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435F9FEC244A13FC00812E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435FA000244A13FE00812E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435FA00B244A13FE00812E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435F9FE6244A13FC00812E98 = {
+			isa = PBXGroup;
+			children = (
+				435F9FF1244A13FC00812E98 /* HackforHope */,
+				435FA006244A13FE00812E98 /* HackforHopeTests */,
+				435FA011244A13FE00812E98 /* HackforHopeUITests */,
+				435F9FF0244A13FC00812E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435F9FF0244A13FC00812E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435F9FEF244A13FC00812E98 /* HackforHope.app */,
+				435FA003244A13FE00812E98 /* HackforHopeTests.xctest */,
+				435FA00E244A13FE00812E98 /* HackforHopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435F9FF1244A13FC00812E98 /* HackforHope */ = {
+			isa = PBXGroup;
+			children = (
+				435F9FF2244A13FC00812E98 /* AppDelegate.swift */,
+				435F9FF4244A13FC00812E98 /* ViewController.swift */,
+				435FA022244A379100812E98 /* MainPage.swift */,
+				435FA024244A4AA800812E98 /* QuoteView.swift */,
+				435FA028244A701600812E98 /* BookView.swift */,
+				435FA02A244A78EB00812E98 /* MovieView.swift */,
+				435F9FF6244A13FC00812E98 /* Main.storyboard */,
+				435F9FF9244A13FD00812E98 /* Assets.xcassets */,
+				435F9FFE244A13FD00812E98 /* Info.plist */,
+			);
+			path = HackforHope;
+			sourceTree = "<group>";
+		};
+		435FA006244A13FE00812E98 /* HackforHopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				435FA007244A13FE00812E98 /* HackforHopeTests.swift */,
+				435FA009244A13FE00812E98 /* Info.plist */,
+			);
+			path = HackforHopeTests;
+			sourceTree = "<group>";
+		};
+		435FA011244A13FE00812E98 /* HackforHopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				435FA012244A13FE00812E98 /* HackforHopeUITests.swift */,
+				435FA014244A13FE00812E98 /* Info.plist */,
+			);
+			path = HackforHopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435F9FEE244A13FC00812E98 /* HackforHope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435FA017244A13FE00812E98 /* Build configuration list for PBXNativeTarget "HackforHope" */;
+			buildPhases = (
+				435F9FEB244A13FC00812E98 /* Sources */,
+				435F9FEC244A13FC00812E98 /* Frameworks */,
+				435F9FED244A13FC00812E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackforHope;
+			productName = HackforHope;
+			productReference = 435F9FEF244A13FC00812E98 /* HackforHope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435FA002244A13FE00812E98 /* HackforHopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435FA01A244A13FE00812E98 /* Build configuration list for PBXNativeTarget "HackforHopeTests" */;
+			buildPhases = (
+				435F9FFF244A13FE00812E98 /* Sources */,
+				435FA000244A13FE00812E98 /* Frameworks */,
+				435FA001244A13FE00812E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435FA005244A13FE00812E98 /* PBXTargetDependency */,
+			);
+			name = HackforHopeTests;
+			productName = HackforHopeTests;
+			productReference = 435FA003244A13FE00812E98 /* HackforHopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		435FA00D244A13FE00812E98 /* HackforHopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435FA01D244A13FE00812E98 /* Build configuration list for PBXNativeTarget "HackforHopeUITests" */;
+			buildPhases = (
+				435FA00A244A13FE00812E98 /* Sources */,
+				435FA00B244A13FE00812E98 /* Frameworks */,
+				435FA00C244A13FE00812E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435FA010244A13FE00812E98 /* PBXTargetDependency */,
+			);
+			name = HackforHopeUITests;
+			productName = HackforHopeUITests;
+			productReference = 435FA00E244A13FE00812E98 /* HackforHopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435F9FE7244A13FC00812E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kevin Sun";
+				TargetAttributes = {
+					435F9FEE244A13FC00812E98 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					435FA002244A13FE00812E98 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 435F9FEE244A13FC00812E98;
+					};
+					435FA00D244A13FE00812E98 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 435F9FEE244A13FC00812E98;
+					};
+				};
+			};
+			buildConfigurationList = 435F9FEA244A13FC00812E98 /* Build configuration list for PBXProject "HackforHope" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435F9FE6244A13FC00812E98;
+			productRefGroup = 435F9FF0244A13FC00812E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435F9FEE244A13FC00812E98 /* HackforHope */,
+				435FA002244A13FE00812E98 /* HackforHopeTests */,
+				435FA00D244A13FE00812E98 /* HackforHopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435F9FED244A13FC00812E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435F9FFA244A13FD00812E98 /* Assets.xcassets in Resources */,
+				435F9FF8244A13FC00812E98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435FA001244A13FE00812E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435FA00C244A13FE00812E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435F9FEB244A13FC00812E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435F9FF5244A13FC00812E98 /* ViewController.swift in Sources */,
+				435F9FF3244A13FC00812E98 /* AppDelegate.swift in Sources */,
+				435FA02B244A78EB00812E98 /* MovieView.swift in Sources */,
+				435FA023244A379100812E98 /* MainPage.swift in Sources */,
+				435FA025244A4AA800812E98 /* QuoteView.swift in Sources */,
+				435FA029244A701600812E98 /* BookView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435F9FFF244A13FE00812E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435FA008244A13FE00812E98 /* HackforHopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435FA00A244A13FE00812E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435FA013244A13FE00812E98 /* HackforHopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435FA005244A13FE00812E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435F9FEE244A13FC00812E98 /* HackforHope */;
+			targetProxy = 435FA004244A13FE00812E98 /* PBXContainerItemProxy */;
+		};
+		435FA010244A13FE00812E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435F9FEE244A13FC00812E98 /* HackforHope */;
+			targetProxy = 435FA00F244A13FE00812E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		435F9FF6244A13FC00812E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435F9FF7244A13FC00812E98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435FA015244A13FE00812E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		435FA016244A13FE00812E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435FA018244A13FE00812E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackforHope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.HackforHope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435FA019244A13FE00812E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackforHope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.HackforHope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		435FA01B244A13FE00812E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackforHopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.HackforHopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackforHope.app/HackforHope";
+			};
+			name = Debug;
+		};
+		435FA01C244A13FE00812E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackforHopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.HackforHopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackforHope.app/HackforHope";
+			};
+			name = Release;
+		};
+		435FA01E244A13FE00812E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackforHopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.HackforHopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackforHope;
+			};
+			name = Debug;
+		};
+		435FA01F244A13FE00812E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackforHopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.HackforHopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackforHope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435F9FEA244A13FC00812E98 /* Build configuration list for PBXProject "HackforHope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435FA015244A13FE00812E98 /* Debug */,
+				435FA016244A13FE00812E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435FA017244A13FE00812E98 /* Build configuration list for PBXNativeTarget "HackforHope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435FA018244A13FE00812E98 /* Debug */,
+				435FA019244A13FE00812E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435FA01A244A13FE00812E98 /* Build configuration list for PBXNativeTarget "HackforHopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435FA01B244A13FE00812E98 /* Debug */,
+				435FA01C244A13FE00812E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435FA01D244A13FE00812E98 /* Build configuration list for PBXNativeTarget "HackforHopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435FA01E244A13FE00812E98 /* Debug */,
+				435FA01F244A13FE00812E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435F9FE7244A13FC00812E98 /* Project object */;
+}
